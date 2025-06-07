@@ -152,178 +152,178 @@ export default function HomeScreen() {
 
 function createStyles(theme: any) {
   return StyleSheet.create({
-    container: {
-      flex: 1,
+  container: {
+    flex: 1,
       backgroundColor: theme.colors.background.default,
-    },
-    scrollView: {
-      flex: 1,
-    },
-    content: {
-      padding: 16,
-    },
-    welcomeSection: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      marginBottom: 24,
-    },
-    welcomeText: {
+  },
+  scrollView: {
+    flex: 1,
+  },
+  content: {
+    padding: 16,
+  },
+  welcomeSection: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  welcomeText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.secondary,
-    },
-    farmerName: {
+  },
+  farmerName: {
       fontFamily: theme.fonts.bold,
-      fontSize: 24,
+    fontSize: 24,
       color: theme.colors.text.primary,
-    },
-    profileImage: {
-      width: 48,
-      height: 48,
-      borderRadius: 24,
-    },
-    weatherCard: {
-      marginBottom: 24,
-    },
-    weatherHeader: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-      marginBottom: 16,
-    },
-    weatherTitle: {
+  },
+  profileImage: {
+    width: 48,
+    height: 48,
+    borderRadius: 24,
+  },
+  weatherCard: {
+    marginBottom: 24,
+  },
+  weatherHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  weatherTitle: {
       fontFamily: theme.fonts.medium,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.primary,
-    },
-    weatherLocation: {
+  },
+  weatherLocation: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.primary.main,
-    },
-    weatherContent: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    temperatureContainer: {
-      flex: 1,
-      alignItems: 'center',
-    },
-    temperature: {
+  },
+  weatherContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  temperatureContainer: {
+    flex: 1,
+    alignItems: 'center',
+  },
+  temperature: {
       fontFamily: theme.fonts.bold,
-      fontSize: 32,
+    fontSize: 32,
       color: theme.colors.text.primary,
-      marginTop: 8,
-    },
-    weatherCondition: {
+    marginTop: 8,
+  },
+  weatherCondition: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-    },
-    weatherDetails: {
-      flex: 1,
-      marginLeft: 16,
-    },
-    weatherDetail: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginBottom: 8,
-    },
-    weatherDetailText: {
+  },
+  weatherDetails: {
+    flex: 1,
+    marginLeft: 16,
+  },
+  weatherDetail: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  weatherDetailText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-      marginLeft: 8,
-    },
-    sectionHeader: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginBottom: 16,
-    },
-    sectionTitle: {
+    marginLeft: 8,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  sectionTitle: {
       fontFamily: theme.fonts.medium,
-      fontSize: 18,
+    fontSize: 18,
       color: theme.colors.text.primary,
-      marginLeft: 8,
-      flex: 1,
-    },
-    seeAllText: {
+    marginLeft: 8,
+    flex: 1,
+  },
+  seeAllText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.primary.main,
-    },
-    entryItem: {
-      flexDirection: 'row',
-      justifyContent: 'space-between',
-      alignItems: 'center',
-    },
-    entryTitle: {
+  },
+  entryItem: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  entryTitle: {
       fontFamily: theme.fonts.medium,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.primary,
-      marginBottom: 4,
-    },
-    entryDetail: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    entryDetailText: {
+    marginBottom: 4,
+  },
+  entryDetail: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  entryDetailText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-      marginLeft: 4,
-    },
-    statusBadge: {
-      paddingHorizontal: 8,
-      paddingVertical: 4,
-      borderRadius: 4,
-    },
-    completedBadge: {
+    marginLeft: 4,
+  },
+  statusBadge: {
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 4,
+  },
+  completedBadge: {
       backgroundColor: theme.colors.success.light,
-    },
-    pendingBadge: {
+  },
+  pendingBadge: {
       backgroundColor: theme.colors.warning.light,
-    },
-    statusText: {
+  },
+  statusText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 12,
-    },
-    completedText: {
+    fontSize: 12,
+  },
+  completedText: {
       color: theme.colors.success.dark,
-    },
-    pendingText: {
+  },
+  pendingText: {
       color: theme.colors.warning.dark,
-    },
-    alertItem: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    alertSeverity: {
-      width: 4,
-      height: '100%',
-      borderRadius: 2,
-      marginRight: 12,
-    },
-    highSeverity: {
+  },
+  alertItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  alertSeverity: {
+    width: 4,
+    height: '100%',
+    borderRadius: 2,
+    marginRight: 12,
+  },
+  highSeverity: {
       backgroundColor: theme.colors.error.main,
-    },
-    mediumSeverity: {
+  },
+  mediumSeverity: {
       backgroundColor: theme.colors.warning.main,
-    },
-    alertContent: {
-      flex: 1,
-    },
-    alertTitle: {
+  },
+  alertContent: {
+    flex: 1,
+  },
+  alertTitle: {
       fontFamily: theme.fonts.medium,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.primary,
-      marginBottom: 4,
-    },
-    alertDate: {
+    marginBottom: 4,
+  },
+  alertDate: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-    },
-  });
+  },
+});
 }

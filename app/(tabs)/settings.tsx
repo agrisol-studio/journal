@@ -40,7 +40,7 @@ export default function SettingsScreen() {
       if (stored) setCity(stored);
     });
   }, []);
-
+  
   const handleLogout = () => {
     Alert.alert(
       'Log Out',
@@ -286,115 +286,115 @@ export default function SettingsScreen() {
 
 function createStyles(theme: any) {
   return StyleSheet.create({
-    container: {
-      flex: 1,
+  container: {
+    flex: 1,
       backgroundColor: theme.colors.background.default,
-    },
-    scrollView: {
-      flex: 1,
-    },
-    content: {
-      padding: 16,
-      paddingBottom: Platform.OS === 'ios' ? 48 : 24,
-    },
-    profileCard: {
-      marginBottom: 24,
-    },
-    profileInfo: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginBottom: 16,
-    },
-    profileImagePlaceholder: {
-      width: 64,
-      height: 64,
-      borderRadius: 32,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  content: {
+    padding: 16,
+    paddingBottom: Platform.OS === 'ios' ? 48 : 24,
+  },
+  profileCard: {
+    marginBottom: 24,
+  },
+  profileInfo: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  profileImagePlaceholder: {
+    width: 64,
+    height: 64,
+    borderRadius: 32,
       backgroundColor: theme.colors.primary.main,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-    profileTextContainer: {
-      marginLeft: 16,
-    },
-    profileName: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  profileTextContainer: {
+    marginLeft: 16,
+  },
+  profileName: {
       fontFamily: theme.fonts.medium,
-      fontSize: 18,
+    fontSize: 18,
       color: theme.colors.text.primary,
-      marginBottom: 4,
-    },
-    profileEmail: {
+    marginBottom: 4,
+  },
+  profileEmail: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-    },
-    editProfileButton: {
-      alignSelf: 'flex-start',
-      paddingVertical: 8,
-      paddingHorizontal: 16,
+  },
+  editProfileButton: {
+    alignSelf: 'flex-start',
+    paddingVertical: 8,
+    paddingHorizontal: 16,
       backgroundColor: theme.colors.background.paper,
-      borderRadius: 16,
-    },
-    editProfileText: {
+    borderRadius: 16,
+  },
+  editProfileText: {
       fontFamily: theme.fonts.medium,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.primary.main,
-    },
-    section: {
-      marginBottom: 24,
-    },
-    sectionTitle: {
+  },
+  section: {
+    marginBottom: 24,
+  },
+  sectionTitle: {
       fontFamily: theme.fonts.medium,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.secondary,
-      marginBottom: 8,
-      marginLeft: 4,
-    },
-    settingItem: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      paddingVertical: 12,
-    },
-    settingIconContainer: {
-      width: 36,
-      height: 36,
-      borderRadius: 18,
+    marginBottom: 8,
+    marginLeft: 4,
+  },
+  settingItem: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingVertical: 12,
+  },
+  settingIconContainer: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
       backgroundColor: theme.colors.primary.light + '20', // 20% opacity
-      justifyContent: 'center',
-      alignItems: 'center',
-      marginRight: 16,
-    },
-    settingText: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginRight: 16,
+  },
+  settingText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.primary,
-      flex: 1,
-    },
-    settingRightContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-    },
-    settingValue: {
+    flex: 1,
+  },
+  settingRightContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  settingValue: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-      marginRight: 8,
-    },
-    divider: {
-      height: 1,
+    marginRight: 8,
+  },
+  divider: {
+    height: 1,
       backgroundColor: theme.colors.divider,
-      marginVertical: 4,
-    },
-    logoutButton: {
-      marginTop: 24,
+    marginVertical: 4,
+  },
+  logoutButton: {
+    marginTop: 24,
       borderColor: theme.colors.error.main,
-    },
-    versionText: {
+  },
+  versionText: {
       fontFamily: theme.fonts.regular,
-      fontSize: 14,
+    fontSize: 14,
       color: theme.colors.text.secondary,
-      textAlign: 'center',
-      marginTop: 24,
-    },
+    textAlign: 'center',
+    marginTop: 24,
+  },
     statusIndicatorContainer: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -440,5 +440,5 @@ function createStyles(theme: any) {
       height: 48,
       resizeMode: 'contain',
     },
-  });
+});
 }

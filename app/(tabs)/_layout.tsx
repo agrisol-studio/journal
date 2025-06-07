@@ -1,14 +1,12 @@
 import React from 'react';
 import { Tabs } from 'expo-router';
-import { View, StyleSheet, Platform, TouchableOpacity } from 'react-native';
+import { View, StyleSheet, Platform } from 'react-native';
 import Colors from '@/constants/Colors';
 import { Chrome as Home, ClipboardList, History, Settings, Camera, Plus } from 'lucide-react-native';
 import { useTheme } from '@/contexts/ThemeContext';
-import { useRouter } from 'expo-router';
 
 export default function TabLayout() {
   const theme = useTheme();
-  const router = useRouter();
   return (
     <Tabs
       screenOptions={{
@@ -44,12 +42,9 @@ export default function TabLayout() {
         options={{
           title: 'Capture',
           tabBarIcon: ({ color, size }) => (
-            <TouchableOpacity 
-              style={[styles.cameraButton, { backgroundColor: theme.colors.primary.main }]}
-              onPress={() => router.push('/entry')}
-            >
+            <View style={[styles.cameraButton, { backgroundColor: theme.colors.primary.main }] }>
               <Plus size={32} color={theme.colors.neutral.white} />
-            </TouchableOpacity>
+            </View>
           ),
         }}
       />

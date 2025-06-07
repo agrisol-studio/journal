@@ -172,44 +172,44 @@ export default function WelcomeScreen() {
 
 function createStyles(theme: any, user: any) {
   return StyleSheet.create({
-    container: {
-      flex: 1,
+  container: {
+    flex: 1,
       backgroundColor: theme.colors.background.default,
-    },
-    backgroundImage: {
-      position: 'absolute',
-      width,
-      height: '100%',
-      resizeMode: 'cover',
-    },
-    overlay: {
+  },
+  backgroundImage: {
+    position: 'absolute',
+    width,
+    height: '100%',
+    resizeMode: 'cover',
+  },
+  overlay: {
       // Overlay removed
-    },
-    languageButton: {
-      position: 'absolute',
-      top: 48,
-      right: 16,
-      flexDirection: 'row',
-      alignItems: 'center',
-      backgroundColor: 'rgba(0, 0, 0, 0.3)',
-      padding: 8,
-      borderRadius: 20,
-      zIndex: 1,
-    },
-    languageText: {
+  },
+  languageButton: {
+    position: 'absolute',
+    top: 48,
+    right: 16,
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    padding: 8,
+    borderRadius: 20,
+    zIndex: 1,
+  },
+  languageText: {
       color: theme.colors.neutral.white,
-      marginLeft: 8,
+    marginLeft: 8,
       fontFamily: theme.fonts.medium,
-      fontSize: 14,
-    },
-    content: {
-      flex: 1,
-      justifyContent: 'space-between',
+    fontSize: 14,
+  },
+  content: {
+    flex: 1,
+    justifyContent: 'space-between',
       alignItems: 'center',
-      padding: 24,
-      paddingTop: 60,
-      paddingBottom: 40,
-    },
+    padding: 24,
+    paddingTop: 60,
+    paddingBottom: 40,
+  },
     contentAgrisol: {
       flex: 1,
       justifyContent: 'flex-start',
@@ -225,14 +225,14 @@ function createStyles(theme: any, user: any) {
     },
     logoTopContainerAgrisol: {
       width: '100%',
-      alignItems: 'center',
+    alignItems: 'center',
       marginTop: 16,
       marginBottom: 16,
     },
     centeredMessageContainer: {
       flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
     },
     bottomButtonContainer: {
       width: '100%',
@@ -246,31 +246,31 @@ function createStyles(theme: any, user: any) {
       width: 200,
       height: 200,
       resizeMode: 'contain',
-      marginBottom: 16,
-    },
-    logoText: {
+    marginBottom: 16,
+  },
+  logoText: {
       fontFamily: theme.fonts.bold,
-      fontSize: 28,
+    fontSize: 28,
       color: theme.colors.primary.main,
-      textAlign: 'center',
-    },
-    title: {
+    textAlign: 'center',
+  },
+  title: {
       fontFamily: theme.fonts.bold,
-      fontSize: 36,
+    fontSize: 36,
       color: theme.colors.primary.main,
-      textAlign: 'center',
-      marginBottom: 16,
-      lineHeight: 44,
-    },
-    subtitle: {
+    textAlign: 'center',
+    marginBottom: 16,
+    lineHeight: 44,
+  },
+  subtitle: {
       fontFamily: theme.fonts.regular,
-      fontSize: 16,
+    fontSize: 16,
       color: theme.colors.text.secondary,
-      textAlign: 'center',
-      marginBottom: 32,
-      lineHeight: 24,
-      maxWidth: '80%',
-    },
+    textAlign: 'center',
+    marginBottom: 32,
+    lineHeight: 24,
+    maxWidth: '80%',
+  },
     qrButton: {
       backgroundColor: theme.colors.primary.main,
       flexDirection: 'row',
@@ -307,10 +307,10 @@ function createStyles(theme: any, user: any) {
       fontSize: 16,
     },
     neutralWelcomeTopContainer: {
-      width: '100%',
+    width: '100%',
       alignItems: 'center',
       marginTop: 64,
       marginBottom: 16,
-    },
-  });
+  },
+});
 }

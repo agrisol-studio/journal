@@ -41,7 +41,7 @@ export default function Header({
       </View>
 
       <View style={styles.centerContainer}>
-        <Text style={styles.title}>{title}</Text>
+      <Text style={styles.title}>{title}</Text>
       </View>
 
       <View style={styles.rightContainer}>
